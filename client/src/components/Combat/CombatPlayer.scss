@@ -7,6 +7,24 @@
   .dndClass {
     width: 10vw;
     margin-left: 10px;
+    &.barbarian {
+      fill: darkred;
+    }
+    &.druid {
+      fill: green;
+    }
+    &.fighter {
+      fill: navy;
+    }
+    &.paladin {
+      fill: goldenrod;
+    }
+    &.ranger {
+      fill: darkolivegreen;
+    }
+    &.wizard {
+      fill: purple;
+    }
   }
 }
 
